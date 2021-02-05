@@ -1,0 +1,169 @@
+html {
+    max-height: 100%;
+    background-color: #1C698A;
+}
+
+/* fonts */
+
+h1{ 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+/*link styles*/
+
+a {
+    color: rgb(100, 92, 145);
+}
+
+a:link {
+    color: rgb(100, 92, 145);
+    text-decoration: none;
+}
+
+a:hover {
+    color:rgb(243, 127, 127);
+}
+
+
+
+
+/*center*/
+.center {
+    text-align: center;
+    justify-content: center;
+}
+
+/*container for circles*/
+.container {
+
+  display: inline-grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  padding: 10px;
+  grid-column-gap:20px;
+  grid-row-gap: 20px;
+  flex: 1;
+  text-align: center;
+}
+
+/*circles*/
+
+.circle1 {
+    width: 186px;
+    height: 186px;
+    border-radius: 50%;
+    background: #FF7474;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.circle2 {
+    width: 186px;
+    height: 186px;
+    border-radius: 50%;
+    background: #FF7474;
+   
+}
+
+.circle3 {
+    width: 186px;
+    height: 186px;
+    border-radius: 50%;
+    background: #FF7474;
+ 
+}
+
+.circle4 {
+    width: 186px;
+    height: 186px;
+    border-radius: 50%;
+    background: #FF7474;
+   
+}
+
+.circle5 {
+    width: 186px;
+    height: 186px;
+    border-radius: 50%;
+    background: #FF7474;
+   
+}
+
+.circle6 {
+    width: 186px;
+    height: 186px;
+    border-radius: 50%;
+    background: #FF7474;
+  
+}
+
+.circle7 {
+    width: 186px;
+    height: 186px;
+    border-radius: 50%;
+    background: #FF7474;
+  
+}
+
+.circle8 {
+    width: 186px;
+    height: 186px;
+    border-radius: 50%;
+    background: #FF7474;
+  
+}
+
+
+.circle9 {
+    width: 186px;
+    height: 186px;
+    border-radius: 50%;
+    background: #FF7474;
+    grid-column-gap:20px;
+    grid-row-gap: 20px;
+}
+
+.circle10 {
+    width: 186px;
+    height: 186px;
+    border-radius: 50%;
+    background: #FF7474;
+
+}
+
+/*square*/
+
+.square11 {
+    width: 186px;
+    height: 186px;
+    background:#FFF174;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square11:hover{
+    animation: heartBeat;
+    animation-duration: 2s;
+}
+
+
+.circle12 {
+    width: 186px;
+    height: 186px;
+    border-radius: 50%;
+    background: #FF7474;
+ 
+}
+
+
+
+/* iphone */
+@media only screen and (max-width: 375px) {
+    html {
+        margin-top: 500px;
+        margin-bottom: 500px;
+        padding: 0;
+    }
+}
