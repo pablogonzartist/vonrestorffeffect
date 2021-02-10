@@ -1,3 +1,90 @@
 html {
     background-color: rgb(73, 73, 172);
 }
+
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 { text-align: center;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3em;
+    color: rgb(73, 73, 172);
+}
+
+h2 { text-align: center;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+    color:#EE8CAD;
+
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.25;
+    margin: 6em;
+
+}
+
+/*link styles*/
+
+a {
+    color: rgb(100, 92, 145);
+}
+
+a:link {
+    color: rgb(100, 92, 145);
+    text-decoration: none;
+}
+
+a:hover {
+    color:rgb(243, 127, 127);
+}
+
+/*circles*/
+
+.circle1 {
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background: #FDF186;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+   
+}
+
+.circle2 {
+    width: 150px;
+    height: 150px;
+    margin: -1em;
+    margin-left: 10em;
+    border-radius: 50%;
+    background: #fd86ae;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+/*animation*/
+.circle2:hover{
+    animation: heartBeat;
+    animation-duration: 2s;
+}
+
+/* iphone */
+@media only screen and (max-width: 375px) {
+    html {
+        margin-top: auto;
+        margin-bottom: auto;
+        padding: 0;
+    }
+}
